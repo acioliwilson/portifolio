@@ -5,9 +5,32 @@ import { GeistMono } from "geist/font/mono"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.dev",
+  title: "Wilson Acioli | Desenvolvedor Full Stack | Next.js, React, Node.js",
+  description:
+    "Portfólio de Wilson Acioli, desenvolvedor full stack especializado em Next.js, React, Node.js e UI/UX Design. Crio aplicações modernas, rápidas e escaláveis para web e mobile.",
+  keywords: [
+    "Wilson Acioli",
+    "Desenvolvedor Full Stack",
+    "Next.js",
+    "React",
+    "Node.js",
+    "UI/UX Design",
+    "Portfólio",
+    "Frontend",
+    "Backend",
+    "Desenvolvimento Web",
+    "Desenvolvimento Mobile"
+  ],
+  authors: [{ name: "Wilson Acioli", url: "https://github.com/acioliwilson" }],
+  openGraph: {
+    title: "Wilson Acioli | Desenvolvedor Full Stack",
+    description:
+      "Desenvolvedor full stack especializado em Next.js, React, Node.js e UI/UX Design. Veja meu portfólio de projetos web e mobile.",
+    url: "https://seusite.com", // Troque pelo domínio real
+    siteName: "Portfólio de Wilson Acioli",
+    locale: "pt_BR",
+    type: "website",
+  },
 }
 
 export default function RootLayout({

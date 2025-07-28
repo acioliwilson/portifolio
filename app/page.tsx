@@ -100,7 +100,7 @@ export default function Portfolio() {
       >
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <motion.div className="text-2xl font-bold" whileHover={{ scale: 1.05 }}>
-            Wil.dev
+            wil.json
           </motion.div>
 
           <nav className="hidden md:flex space-x-8">
@@ -145,7 +145,7 @@ export default function Portfolio() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="mb-8"
           >
-            <div className="w-32 h-32 mx-auto mb-8 rounded-full p-1">
+            <div className="max-w-60 mx-auto mb-8 rounded-full p-1">
               <Avatar />
             </div>
           </motion.div>

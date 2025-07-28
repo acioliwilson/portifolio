@@ -14,14 +14,14 @@ export default function Avatar() {
 
   if (!isMounted) return null
 
-  const avatarSrc = theme === "dark" ? "/avatar.png" : "/light-avatar.png"
+  const avatarSrc = theme === "dark" ? "/dark-mode.png" : "/light-mode.png"
 
   return (
       <Image
         src={avatarSrc}
         alt="Profile"
-        width={200}
-        height={200}
+        width={273}
+        height={310}
         className="rounded-full w-full h-full object-cover"
       />
   )
