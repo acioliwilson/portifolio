@@ -127,7 +127,10 @@ export default function Portfolio() {
       >
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <motion.div className="text-2xl font-bold" whileHover={{ scale: 1.05 }}>
-            wil.json
+            <div className="myBrand">
+              <svg xmlns="http://www.w3.org/2000/svg" className="logoIcon" width="32" height="32" fill="#D9023F" viewBox="0 0 256 256"><path d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z"></path></svg>
+              <span>wiil.dev</span>
+            </div>
           </motion.div>
           <nav className="hidden md:flex space-x-8">
             {["Início", "Sobre", "Projetos", "Skills", "Contato"].map((item, index) => (
@@ -300,7 +303,7 @@ export default function Portfolio() {
       <footer className="py-8 border-t bg-muted/50">
         <div className="container mx-auto px-4 text-center">
           <motion.p className="text-muted-foreground" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
-            © 2025 wil.json
+            © 2025 wiil.dev
           </motion.p>
         </div>
       </footer>
