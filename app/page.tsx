@@ -264,7 +264,7 @@ export default function Portfolio() {
                   em produtos digitais que fazem a diferença.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  {["JavaScript", "TypeScript", "React", "Next.js", "Node.js"].map((tech) => (
+                  {["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Angular", "Vue", "Python", "Laravel"].map((tech) => (
                     <Badge key={tech} variant="secondary">
                       {tech}
                     </Badge>
@@ -275,7 +275,7 @@ export default function Portfolio() {
               <motion.div variants={fadeInUp} className="relative">
                 <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 p-8">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
+                    src="/animation.gif"
                     alt="Developer at work"
                     width={400}
                     height={400}
@@ -430,7 +430,7 @@ export default function Portfolio() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            © 2024 Wil.dev - Feito com ❤️ e muito código.
+            © 2025 wil.json
           </motion.p>
         </div>
       </footer>
