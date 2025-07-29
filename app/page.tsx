@@ -71,10 +71,10 @@ const projects = [
 
 const skills = [
   { name: "Frontend", icon: Code, items: ["React", "Next.js", "Vue", "Angular", "TypeScript", "Tailwind CSS", "Bootstrap"] },
-  { name: "Backend", icon: Server, items: ["Node.js", "Python", "Express", "FastAPI", "Laravel"] },
-  { name: "Database", icon: Database, items: ["PostgreSQL", "MongoDB", "MySQL", "Prisma", "Firebase"] },
+  { name: "Backend", icon: Server, items: ["Node.js", "Python", "Django", "Flask", "Express", "FastAPI", "Laravel"] },
+  { name: "Database", icon: Database, items: ["PostgreSQL", "MongoDB", "MySQL", "Prisma", "Firebase", "Google Cloud SQL"] },
   { name: "Mobile", icon: Smartphone, items: ["React Native", "Flutter", "Expo"] },
-  { name: "Design", icon: Palette, items: ["Figma", "Adobe XD", "Framer", "Sketch", "Adobe Photoshop", "Adobe Illustrator"] },
+  { name: "Design", icon: Palette, items: ["Figma", "Adobe XD", "Framer", "Sketch", "Adobe Photoshop"] },
   { name: "DevOps", icon: Globe, items: ["Docker", "AWS", "Vercel", "GitHub Actions"] },
 ]
 
